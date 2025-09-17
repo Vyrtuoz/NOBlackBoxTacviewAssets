@@ -1053,7 +1053,7 @@
       <Shape>SAM_Radar2.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="SAMTrailer1" Base="Vehicle.Military.Truck">
+  <DefaultProperties Id="SAMTrailer1" Base="Core.Default">
     <Criteria>
       <Name>SAMTrailer1</Name>
       <Name>SAMTrailer1</Name>
