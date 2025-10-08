@@ -901,7 +901,6 @@
     <Criteria>
       <Name>pilotDismounted</Name>
       <Name>PilotDismounted</Name>
-      <Name>Pilot</Name>
     </Criteria>
     <Properties>
       <ShortName>PILOT</ShortName>
