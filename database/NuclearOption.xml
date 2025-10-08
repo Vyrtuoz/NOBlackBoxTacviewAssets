@@ -1156,4 +1156,134 @@
       <Shape>QuadVTOL1.obj</Shape>
     </Properties>
   </DefaultProperties>
+  <DefaultProperties Id="UtilityHelo1" Base="Rotorcraft.Attack">
+    <Criteria>
+      <Name>UtilityHelo1</Name>
+      <Name>UtilityHelo1</Name>
+      <Name>UH-90 Ibis</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>UH-90</ShortName>
+      <LongName>UH-90 Ibis</LongName>
+      <FullName>UH-90 Ibis</FullName>
+      <Shape>UtilityHelo1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="UGV1_grenade" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>UGV1_grenade</Name>
+      <Name>UGV1_grenade</Name>
+      <Name>Hexhound GMG</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>UGV</ShortName>
+      <LongName>Hexhound GMG</LongName>
+      <FullName>Hexhound GMG</FullName>
+      <Shape>UGV1_grenade.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="UGV1_SAM" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>UGV1_SAM</Name>
+      <Name>UGV1_sam</Name>
+      <Name>Hexhound SAM</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>UGV</ShortName>
+      <LongName>Hexhound SAM</LongName>
+      <FullName>Hexhound SAM</FullName>
+      <Shape>UGV1_SAM.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="UGVDozer1" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>UGVDozer1</Name>
+      <Name>UGVDozer1</Name>
+      <Name>M12 Jackknife</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CEV</ShortName>
+      <LongName>M12 Jackknife</LongName>
+      <FullName>M12 Jackknife</FullName>
+      <Shape>UGVDozer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="CRAMTrailer1" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>CRAMTrailer1</Name>
+      <Name>CRAMTrailer1</Name>
+      <Name>CRAM Trailer</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CRAM</ShortName>
+      <LongName>CRAM Trailer</LongName>
+      <FullName>CRAM Trailer</FullName>
+      <Shape>CRAMTrailer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="LaserTrailer1" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>LaserTrailer1</Name>
+      <Name>LaserTrailer1</Name>
+      <Name>Laser CIWS Trailer</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CIWS (L)</ShortName>
+      <LongName>Laser CIWS Trailer</LongName>
+      <FullName>Laser CIWS Trailer</FullName>
+      <Shape>LaserTrailer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="ammunitionBunker" Base="Core.Default">
+    <Criteria>
+      <Name>ammunitionBunker</Name>
+      <Name>ammunitionBunker</Name>
+      <Name>Munitions Bunker</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>AMMO</ShortName>
+      <LongName>Munitions Bunker</LongName>
+      <FullName>Munitions Bunker</FullName>
+      <Shape>ammunitionBunker.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="guardTower1" Base="Core.Default">
+    <Criteria>
+      <Name>guardTower1</Name>
+      <Name>guardTower1</Name>
+      <Name>Guard Tower</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>TWR</ShortName>
+      <LongName>Guard Tower</LongName>
+      <FullName>Guard Tower</FullName>
+      <Shape>guardTower1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="MunitionsPallet1" Base="Core.Default">
+    <Criteria>
+      <Name>MunitionsPallet1</Name>
+      <Name>MunitionsPallet1</Name>
+      <Name>Munitions Pallet</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CTNR</ShortName>
+      <LongName>Munitions Pallet</LongName>
+      <FullName>Munitions Pallet</FullName>
+      <Shape>MunitionsPallet1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="NavalPallet1" Base="Core.Default">
+    <Criteria>
+      <Name>NavalPallet1</Name>
+      <Name>NavalPallet1</Name>
+      <Name>Naval Supply Pallet</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CTNR</ShortName>
+      <LongName>Naval Supply Pallet</LongName>
+      <FullName>Naval Supply Pallet</FullName>
+      <Shape>NavalPallet1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
 </DefaultPropertiesCollection>
