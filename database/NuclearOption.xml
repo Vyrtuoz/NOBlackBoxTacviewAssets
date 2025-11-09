@@ -1,5 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DefaultPropertiesCollection LoadingOrder="1.0">
+  <DefaultProperties Id="prefabName" Base="TacviewXMLBase">
+    <Criteria>
+      <Name>prefabName</Name>
+      <Name>name</Name>
+      <Name>unitName</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>code</ShortName>
+      <LongName>unitName</LongName>
+      <FullName>unitName</FullName>
+      <Shape>prefabName.obj</Shape>
+    </Properties>
+  </DefaultProperties>
   <DefaultProperties Id="Shell_76mm_guided" Base="Core.Shell">
     <Criteria>
       <Name>Shell_76mm_guided</Name>
@@ -1287,144 +1300,144 @@
       <Shape>NavalPallet1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Platform_small_columns" Base="">
+  <DefaultProperties Id="Platform_small_columns" Base="Core.Default">
     <Criteria>
       <Name>Platform_small_columns</Name>
       <Name>PlatformSmallColumns</Name>
       <Name>Small Platform Columns</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Small Platform Columns</LongName>
       <FullName>Small Platform Columns</FullName>
       <Shape>Platform_small_columns.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Column1" Base="">
+  <DefaultProperties Id="Column1" Base="Core.Default">
     <Criteria>
       <Name>Column1</Name>
       <Name>Column1</Name>
       <Name>Column 50m</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Column 50m</LongName>
       <FullName>Column 50m</FullName>
       <Shape>Column1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Ring1" Base="">
+  <DefaultProperties Id="Ring1" Base="Core.Default">
     <Criteria>
       <Name>Ring1</Name>
       <Name>Ring1</Name>
       <Name>Ring D50m</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Ring D50m</LongName>
       <FullName>Ring D50m</FullName>
       <Shape>Ring1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Cylinder1" Base="">
+  <DefaultProperties Id="Cylinder1" Base="Core.Default">
     <Criteria>
       <Name>Cylinder1</Name>
       <Name>Cylinder1</Name>
       <Name>Cylinder D20x50m</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Cylinder D20x50m</LongName>
       <FullName>Cylinder D20x50m</FullName>
       <Shape>Cylinder1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Cylinder2" Base="">
+  <DefaultProperties Id="Cylinder2" Base="Core.Default">
     <Criteria>
       <Name>Cylinder2</Name>
       <Name>Cylinder2</Name>
       <Name>Cylinder D25x50m</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Cylinder D25x50m</LongName>
       <FullName>Cylinder D25x50m</FullName>
       <Shape>Cylinder2.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Cone1" Base="">
+  <DefaultProperties Id="Cone1" Base="Core.Default">
     <Criteria>
       <Name>Cone1</Name>
       <Name>Cone1</Name>
       <Name>Cone D40x20m</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Cone D40x20m</LongName>
       <FullName>Cone D40x20m</FullName>
       <Shape>Cone1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Cone2" Base="">
+  <DefaultProperties Id="Cone2" Base="Core.Default">
     <Criteria>
       <Name>Cone2</Name>
       <Name>Cone2</Name>
       <Name>Cone D25x20m</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Cone D25x20m</LongName>
       <FullName>Cone D25x20m</FullName>
       <Shape>Cone2.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Cone3" Base="">
+  <DefaultProperties Id="Cone3" Base="Core.Default">
     <Criteria>
       <Name>Cone3</Name>
       <Name>Cone3</Name>
       <Name>Cone D40x25m</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Cone D40x25m</LongName>
       <FullName>Cone D40x25m</FullName>
       <Shape>Cone3.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Bend2" Base="">
+  <DefaultProperties Id="Bend2" Base="Core.Default">
     <Criteria>
       <Name>Bend2</Name>
       <Name>Bend2</Name>
       <Name>Bend D25x45deg 2D</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Bend D25x45deg 2D</LongName>
       <FullName>Bend D25x45deg 2D</FullName>
       <Shape>Bend2.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Bend4" Base="">
+  <DefaultProperties Id="Bend4" Base="Core.Default">
     <Criteria>
       <Name>Bend4</Name>
       <Name>Bend4</Name>
       <Name>Bend D25x45deg 4D</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Bend D25x45deg 4D</LongName>
       <FullName>Bend D25x45deg 4D</FullName>
       <Shape>Bend4.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="hullDown1" Base="">
+  <DefaultProperties Id="hullDown1" Base="Core.Default">
     <Criteria>
       <Name>hullDown1</Name>
       <Name>hullDown1</Name>
       <Name>Hull down square</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Hull down square</LongName>
       <FullName>Hull down square</FullName>
       <Shape>hullDown1.obj</Shape>
@@ -1437,215 +1450,215 @@
       <Name>Container stack</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Container stack</LongName>
       <FullName>Container stack</FullName>
       <Shape>ContainerStack1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Container4" Base="">
+  <DefaultProperties Id="Container4" Base="Core.Default">
     <Criteria>
       <Name>Container4</Name>
       <Name>Container4</Name>
       <Name>Container white</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Container white</LongName>
       <FullName>Container white</FullName>
       <Shape>Container4.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Container3" Base="">
+  <DefaultProperties Id="Container3" Base="Core.Default">
     <Criteria>
       <Name>Container3</Name>
       <Name>Container3</Name>
       <Name>Container red</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Container red</LongName>
       <FullName>Container red</FullName>
       <Shape>Container3.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Container2" Base="">
+  <DefaultProperties Id="Container2" Base="Core.Default">
     <Criteria>
       <Name>Container2</Name>
       <Name>Container2</Name>
       <Name>Container blue</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Container blue</LongName>
       <FullName>Container blue</FullName>
       <Shape>Container2.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Container1" Base="">
+  <DefaultProperties Id="Container1" Base="Core.Default">
     <Criteria>
       <Name>Container1</Name>
       <Name>Container1</Name>
       <Name>Container orange</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Container orange</LongName>
       <FullName>Container orange</FullName>
       <Shape>Container1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="ConcreteBarrier1" Base="">
+  <DefaultProperties Id="ConcreteBarrier1" Base="Core.Default">
     <Criteria>
       <Name>ConcreteBarrier1</Name>
       <Name>ConcreteBarrier1</Name>
       <Name>Concrete barrier</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Concrete barrier</LongName>
       <FullName>Concrete barrier</FullName>
       <Shape>ConcreteBarrier1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="hesco5" Base="">
+  <DefaultProperties Id="hesco5" Base="Core.Default">
     <Criteria>
       <Name>hesco5</Name>
       <Name>hesco5</Name>
       <Name>Gabion Wall 10x1.5x1.5</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Gabion Wall 10x1.5x1.5</LongName>
       <FullName>Gabion Wall 10x1.5x1.5</FullName>
       <Shape>hesco5.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="camoNet1" Base="">
+  <DefaultProperties Id="camoNet1" Base="Core.Default">
     <Criteria>
       <Name>camoNet1</Name>
       <Name>camoNet1</Name>
       <Name>Camo Net 1</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Camo Net 1</LongName>
       <FullName>Camo Net 1</FullName>
       <Shape>camoNet1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="hullDown2" Base="">
+  <DefaultProperties Id="hullDown2" Base="Core.Default">
     <Criteria>
       <Name>hullDown2</Name>
       <Name>hullDown2</Name>
       <Name>Hull down circular</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Hull down circular</LongName>
       <FullName>Hull down circular</FullName>
       <Shape>hullDown2.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="CoolingTower" Base="">
+  <DefaultProperties Id="CoolingTower" Base="Core.Default">
     <Criteria>
       <Name>CoolingTower</Name>
       <Name>CoolingTower</Name>
       <Name>Cooling Tower</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Cooling Tower</LongName>
       <FullName>Cooling Tower</FullName>
       <Shape>CoolingTower.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Truss1" Base="">
+  <DefaultProperties Id="Truss1" Base="Core.Default">
     <Criteria>
       <Name>Truss1</Name>
       <Name>Truss1</Name>
       <Name>Truss 50m</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Truss 50m</LongName>
       <FullName>Truss 50m</FullName>
       <Shape>Truss1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="Pipeline" Base="">
+  <DefaultProperties Id="Pipeline" Base="Core.Default">
     <Criteria>
       <Name>Pipeline</Name>
       <Name>Pipeline</Name>
       <Name>Pipeline</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Pipeline</LongName>
       <FullName>Pipeline</FullName>
       <Shape>Pipeline.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="TowerCrane" Base="">
+  <DefaultProperties Id="TowerCrane" Base="Core.Default">
     <Criteria>
       <Name>TowerCrane</Name>
       <Name>TowerCrane</Name>
       <Name>Tower Crane</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Tower Crane</LongName>
       <FullName>Tower Crane</FullName>
       <Shape>TowerCrane.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="gabionWall_20x3x3" Base="">
+  <DefaultProperties Id="gabionWall_20x3x3" Base="Core.Default">
     <Criteria>
       <Name>gabionWall_20x3x3</Name>
       <Name>gabionWall_20x3x3</Name>
       <Name>Gabion Wall 20x3x3</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Gabion Wall 20x3x3</LongName>
       <FullName>Gabion Wall 20x3x3</FullName>
       <Shape>gabionWall_20x3x3.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="ConcretePad1" Base="">
+  <DefaultProperties Id="ConcretePad1" Base="Core.Default">
     <Criteria>
       <Name>ConcretePad1</Name>
       <Name>ConcretePad1</Name>
       <Name>Concrete Pad</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Concrete Pad</LongName>
       <FullName>Concrete Pad</FullName>
       <Shape>ConcretePad1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="ConcreteWall1" Base="">
+  <DefaultProperties Id="ConcreteWall1" Base="Core.Default">
     <Criteria>
       <Name>ConcreteWall1</Name>
       <Name>ConcreteWall1</Name>
       <Name>Concrete Wall</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Concrete Wall</LongName>
       <FullName>Concrete Wall</FullName>
       <Shape>ConcreteWall1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="ConcreteWall1x5" Base="">
+  <DefaultProperties Id="ConcreteWall1x5" Base="Core.Default">
     <Criteria>
       <Name>ConcreteWall1x5</Name>
       <Name>ConcreteWall1x5</Name>
       <Name>Concrete Wall 10m</Name>
     </Criteria>
     <Properties>
-      <ShortName>OBJ</ShortName>
+      <ShortName>BLD</ShortName>
       <LongName>Concrete Wall 10m</LongName>
       <FullName>Concrete Wall 10m</FullName>
       <Shape>ConcreteWall1x5.obj</Shape>
