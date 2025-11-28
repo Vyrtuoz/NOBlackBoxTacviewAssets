@@ -1,8 +1,8 @@
 param(
-    [Parameter(Mandatory)]
+    [Parameter(Mandatory=$false)]
     [ValidateSet("Stable","Beta")]
     [string]
-    $target
+    $target="Beta"
 )
 $customPaths = @{
     "Stable" = @{

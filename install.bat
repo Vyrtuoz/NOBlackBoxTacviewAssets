@@ -1,0 +1,1 @@
+powershell -executionpolicy bypass -file .\TacviewAssetsSetup.ps1
