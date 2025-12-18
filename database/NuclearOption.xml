@@ -1664,4 +1664,355 @@
       <Shape>ConcreteWall1x5.obj</Shape>
     </Properties>
   </DefaultProperties>
+  <DefaultProperties Id="CAS1" Base="FixedWing.Fighter.Jet">
+    <Criteria>
+      <Name>CAS1</Name>
+      <Name>CAS1</Name>
+      <Name>A-19 Brawler</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>A-19</ShortName>
+      <LongName>A-19 Brawler</LongName>
+      <FullName>A-19 Brawler</FullName>
+      <Shape>CAS1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-L" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-L</Name>
+      <Name>Truck2-L</Name>
+      <Name>MSV Flatbed</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>TRK</ShortName>
+      <LongName>MSV Flatbed</LongName>
+      <FullName>MSV Flatbed</FullName>
+      <Shape>Truck2-L.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-T" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-T</Name>
+      <Name>Truck2-T</Name>
+      <Name>MSV Tractor</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>TRK</ShortName>
+      <LongName>MSV Tractor</LongName>
+      <FullName>MSV Tractor</FullName>
+      <Shape>Truck2-T.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-FT" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-FT</Name>
+      <Name>Truck2-FT</Name>
+      <Name>MSV Fuel Tanker</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>FUEL</ShortName>
+      <LongName>MSV Fuel Tanker</LongName>
+      <FullName>MSV Fuel Tanker</FullName>
+      <Shape>Truck2-FT.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-M" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-M</Name>
+      <Name>Truck2-M</Name>
+      <Name>MSV Munitions</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>AMMO</ShortName>
+      <LongName>MSV Munitions</LongName>
+      <FullName>MSV Munitions</FullName>
+      <Shape>Truck2-M.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-MRAP" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-MRAP</Name>
+      <Name>Truck2-MRAP</Name>
+      <Name>MSV MRAP</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MRAP</ShortName>
+      <LongName>MSV MRAP</LongName>
+      <FullName>MSV MRAP</FullName>
+      <Shape>Truck2-MRAP.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-FC" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-FC</Name>
+      <Name>Truck2-FC</Name>
+      <Name>MSV Fire Control</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CMD</ShortName>
+      <LongName>MSV Fire Control</LongName>
+      <FullName>MSV Fire Control</FullName>
+      <Shape>Truck2-FC.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="HLT-FC" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>HLT-FC</Name>
+      <Name>HLT-FC</Name>
+      <Name>HLT Fire Control</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CMD</ShortName>
+      <LongName>HLT Fire Control</LongName>
+      <FullName>HLT Fire Control</FullName>
+      <Shape>HLT-FC.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="SAMTurret1" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>SAMTurret1</Name>
+      <Name>SAMTurret1</Name>
+      <Name>Boltstrike RAM45 Launcher</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SAM R</ShortName>
+      <LongName>Boltstrike RAM45 Launcher</LongName>
+      <FullName>Boltstrike RAM45 Launcher</FullName>
+      <Shape>SAMTurret1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="RadarContainer1" Base="Core.Default">
+    <Criteria>
+      <Name>RadarContainer1</Name>
+      <Name>RadarContainer1</Name>
+      <Name>Radar Container</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>RDR</ShortName>
+      <LongName>Radar Container</LongName>
+      <FullName>Radar Container</FullName>
+      <Shape>RadarContainer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-TBM-N" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-TBM-N</Name>
+      <Name>Truck2-TBM-N</Name>
+      <Name>MSV Nuclear Ballistic Missile Launcher</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>TBM</ShortName>
+      <LongName>MSV Nuclear Ballistic Missile Launcher</LongName>
+      <FullName>MSV Nuclear Ballistic Missile Launcher</FullName>
+      <Shape>Truck2-TBM-N.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-TBM" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-TBM</Name>
+      <Name>Truck2-TBM</Name>
+      <Name>MSV Ballistic Missile Launcher</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>TBM</ShortName>
+      <LongName>MSV Ballistic Missile Launcher</LongName>
+      <FullName>MSV Ballistic Missile Launcher</FullName>
+      <Shape>Truck2-TBM.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-RSAM" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-RSAM</Name>
+      <Name>Truck2-RSAM</Name>
+      <Name>MSV R9 Stratolance Launcher</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SAM R</ShortName>
+      <LongName>MSV R9 Stratolance Launcher</LongName>
+      <FullName>MSV R9 Stratolance Launcher</FullName>
+      <Shape>Truck2-RSAM.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-CRAM" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-CRAM</Name>
+      <Name>Truck2-CRAM</Name>
+      <Name>MSV CRAM</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>AAA</ShortName>
+      <LongName>MSV CRAM</LongName>
+      <FullName>MSV CRAM</FullName>
+      <Shape>Truck2-CRAM.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-LADS" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-LADS</Name>
+      <Name>Truck2-LADS</Name>
+      <Name>MSV LADS</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>LADS</ShortName>
+      <LongName>MSV LADS</LongName>
+      <FullName>MSV LADS</FullName>
+      <Shape>Truck2-LADS.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Truck2-R" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Truck2-R</Name>
+      <Name>Truck2-R</Name>
+      <Name>MSV Radar</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>RDR</ShortName>
+      <LongName>MSV Radar</LongName>
+      <FullName>MSV Radar</FullName>
+      <Shape>Truck2-R.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="fuelTank1" Base="Core.Default">
+    <Criteria>
+      <Name>fuelTank1</Name>
+      <Name>fuelTank1</Name>
+      <Name>Fuel Depot</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>FUEL</ShortName>
+      <LongName>Fuel Depot</LongName>
+      <FullName>Fuel Depot</FullName>
+      <Shape>fuelTank1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Emplacement1_23mm" Base="Core.Default">
+    <Criteria>
+      <Name>Emplacement1_23mm</Name>
+      <Name>Emplacement1_23mm</Name>
+      <Name>23mm AAA Emplacement</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>AAA</ShortName>
+      <LongName>23mm AAA Emplacement</LongName>
+      <FullName>23mm AAA Emplacement</FullName>
+      <Shape>Emplacement1_23mm.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Emplacement1_MANPADS" Base="Core.Default">
+    <Criteria>
+      <Name>Emplacement1_MANPADS</Name>
+      <Name>Emplacement1_MANPADS</Name>
+      <Name>IRM-S1 Emplacement</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MANPADS</ShortName>
+      <LongName>IRM-S1 Emplacement</LongName>
+      <FullName>IRM-S1 Emplacement</FullName>
+      <Shape>Emplacement1_MANPADS.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="bomb_250_glide" Base="Bomb.Glider">
+    <Criteria>
+      <Name>bomb_250_glide</Name>
+      <Name>Bomb_250_glide</Name>
+      <Name>PAB-250LR</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>PAB-250LR</LongName>
+      <FullName>PAB-250LR</FullName>
+      <Shape>bomb_250_glide.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="bomb_500_glide" Base="Bomb.Glider">
+    <Criteria>
+      <Name>bomb_500_glide</Name>
+      <Name>Bomb_500_glide</Name>
+      <Name>GBM-500LR</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>GBM-500LR</LongName>
+      <FullName>GBM-500LR</FullName>
+      <Shape>bomb_500_glide.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="fuelBladder1500" Base="Core.Default">
+    <Criteria>
+      <Name>fuelBladder1500</Name>
+      <Name>FuelBladder1</Name>
+      <Name>Fuel Bladder 1500L</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>FUEL</ShortName>
+      <LongName>Fuel Bladder 1500L</LongName>
+      <FullName>Fuel Bladder 1500L</FullName>
+      <Shape>fuelBladder1500.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="fuelBladder6000" Base="Core.Default">
+    <Criteria>
+      <Name>fuelBladder6000</Name>
+      <Name>FuelBladder2</Name>
+      <Name>Fuel Bladder 6000L</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>FUEL</ShortName>
+      <LongName>Fuel Bladder 6000L</LongName>
+      <FullName>Fuel Bladder 6000L</FullName>
+      <Shape>fuelBladder6000.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="fuelBladder10000" Base="Core.Default">
+    <Criteria>
+      <Name>fuelBladder10000</Name>
+      <Name>FuelBladder3</Name>
+      <Name>Fuel Bladder 10,000L</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>FUEL</ShortName>
+      <LongName>Fuel Bladder 10,000L</LongName>
+      <FullName>Fuel Bladder 10,000L</FullName>
+      <Shape>fuelBladder10000.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Wreck_HLT" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Wreck_HLT</Name>
+      <Name>Wreck_HLT</Name>
+      <Name>Wreck HLT</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>WRECK</ShortName>
+      <LongName>Wreck HLT</LongName>
+      <FullName>Wreck HLT</FullName>
+      <Shape>Wreck_HLT.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Wreck_MBT" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Wreck_MBT</Name>
+      <Name>Wreck_MBT</Name>
+      <Name>Wreck MBT</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>WRECK</ShortName>
+      <LongName>Wreck MBT</LongName>
+      <FullName>Wreck MBT</FullName>
+      <Shape>Wreck_MBT.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Ruin_Building1" Base="Core.Default">
+    <Criteria>
+      <Name>Ruin_Building1</Name>
+      <Name>Ruin_Building1</Name>
+      <Name>Ruin Building</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>RUIN</ShortName>
+      <LongName>Ruin Building</LongName>
+      <FullName>Ruin Building</FullName>
+      <Shape>Ruin_Building1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
 </DefaultPropertiesCollection>
