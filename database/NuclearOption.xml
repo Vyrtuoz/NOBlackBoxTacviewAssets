@@ -1222,8 +1222,9 @@
       <Shape>UGVDozer1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="CRAMTrailer1" Base="Vehicle.Military.APC">
+  <DefaultProperties Id="CRAMTrailer1" Base="Core.Default">
     <Criteria>
+	  <Name>HLT-CRAM</Name>
       <Name>CRAMTrailer1</Name>
       <Name>CRAMTrailer1</Name>
       <Name>CRAM Trailer</Name>
@@ -1235,8 +1236,9 @@
       <Shape>CRAMTrailer1.obj</Shape>
     </Properties>
   </DefaultProperties>
-  <DefaultProperties Id="LaserTrailer1" Base="Vehicle.Military.APC">
+  <DefaultProperties Id="LaserTrailer1" Base="Core.Default">
     <Criteria>
+	  <Name>HLT-HEL</Name>
       <Name>LaserTrailer1</Name>
       <Name>LaserTrailer1</Name>
       <Name>Laser CIWS Trailer</Name>
