@@ -1,1 +1,0 @@
-powershell -executionpolicy bypass -file .\TacviewAssetsSetup.ps1 -target "Beta"
