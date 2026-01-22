@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefaultPropertiesCollection LoadingOrder="1.0">
+<DefaultPropertiesCollection Priority="1.0">
   <DefaultProperties Id="prefabName" Base="TacviewXMLBase">
     <Criteria>
       <Name>prefabName</Name>
@@ -75,6 +75,7 @@
       <ShortName>AA</ShortName>
       <LongName>AFV6 AA</LongName>
       <FullName>AFV6 AA</FullName>
+      <EngagementRange>4000</EngagementRange>		<!-- IRM-S1 FOX2 missile -->
       <Shape>6x6_1_AA.obj</Shape>
     </Properties>
   </DefaultProperties>
@@ -153,6 +154,7 @@
       <ShortName>SAM IR</ShortName>
       <LongName>AFV8 Mobile Air Defense</LongName>
       <FullName>AFV8 Mobile Air Defense</FullName>
+      <EngagementRange>6000</EngagementRange>		<!-- IRM-S2 FOX2 missile -->
       <Shape>AFV8_SAM.obj</Shape>
     </Properties>
   </DefaultProperties>
@@ -283,6 +285,7 @@
       <ShortName>SHP</ShortName>
       <LongName>Annex Class Carrier</LongName>
       <FullName>Annex Class Carrier</FullName>
+      <EngagementRange>15000</EngagementRange>
       <Shape>AssaultCarrier1.obj</Shape>
     </Properties>
   </DefaultProperties>
@@ -413,6 +416,7 @@
       <ShortName>SPAAG</ShortName>
       <LongName>FGA-57 Anvil</LongName>
       <FullName>FGA-57 Anvil</FullName>
+      <EngagementRange>2500</EngagementRange>
       <Shape>SPAAG2.obj</Shape>
     </Properties>
   </DefaultProperties>
@@ -621,6 +625,7 @@
       <ShortName>SHP</ShortName>
       <LongName>Hyperion Class Carrier</LongName>
       <FullName>Hyperion Class Carrier</FullName>
+      <EngagementRange>15000</EngagementRange>
       <Shape>FleetCarrier1.obj</Shape>
     </Properties>
   </DefaultProperties>
@@ -699,6 +704,7 @@
       <ShortName>LCV25</ShortName>
       <LongName>LCV25 AA</LongName>
       <FullName>LCV25 AA</FullName>
+      <EngagementRange>4000</EngagementRange>		<!-- IRM-S1 FOX2 missile -->
       <Shape>LightTruck1_AA.obj</Shape>
     </Properties>
   </DefaultProperties>
@@ -764,6 +770,7 @@
       <ShortName>SAM IR</ShortName>
       <LongName>Linebreaker SAM</LongName>
       <FullName>Linebreaker SAM</FullName>
+      <EngagementRange>6000</EngagementRange>		<!-- IRM-S2 FOX2 missile -->
       <Shape>Linebreaker_SAM.obj</Shape>
     </Properties>
   </DefaultProperties>
@@ -997,6 +1004,7 @@
       <ShortName>SHP</ShortName>
       <LongName>Shard Class Corvette</LongName>
       <FullName>Shard Class Corvette</FullName>
+      <EngagementRange>15000</EngagementRange>
       <Shape>Corvette1.obj</Shape>
     </Properties>
   </DefaultProperties>
